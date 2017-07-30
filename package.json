@@ -1,0 +1,35 @@
+{
+  "name": "vuewebp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -w -d --color --progress --display-error-details"
+  },
+  "author": "chenglin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "body-parser": "^1.17.2",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "mongoose": "^4.11.4",
+    "muse-ui": "^2.1.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.18.2",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^13.0.2",
+    "vue-resource": "^1.3.4",
+    "vue-router": "^2.7.0",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "vue": "^2.4.2"
+  }
+}
