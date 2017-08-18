@@ -2,7 +2,7 @@
 * @Author: ChengLin
 * @Date:   2017-07-26 11:25:33
 * @Last Modified by:   ChengLin
-* @Last Modified time: 2017-07-30 18:26:42
+* @Last Modified time: 2017-07-31 15:00:03
 */
 
 'use strict';
@@ -62,7 +62,7 @@ module.exports = {
 	        {
 		        test: /\.js$/,
 		        loader: 'babel-loader'
-		    },
+		    }
 		]
 	},
 	plugins: plugins,

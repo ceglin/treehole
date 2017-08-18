@@ -572,7 +572,7 @@ a {
 }
 
 .home{
-	background: url('https://b-ssl.duitang.com/uploads/item/201510/14/20151014144907_dLXUa.png') no-repeat center;
+	background: url('http://localhost:8080/img/bg.png') no-repeat center;
 	background-size: cover;
 	position: absolute;
 	top: 0;
@@ -596,22 +596,18 @@ a {
     background-color: #e0f2f1;
 }
 .opea{
-	text-align: right;
 	cursor: pointer;
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
-.opea .opea-content{
+.opea .opea-content-left{
+	font-size: 12px;
+}
+.opea .opea-content-right{
 	background-color: #fff;
     border-radius: 3px;
-    width: 130px;
     padding: 5px;
-    display: inline-block;
-}
-.opea .icon-title{
-	padding-right: 10px;
-	margin-right: 5px;
-}
-.opea .icon-title:first-child{
-    border-right: 2px solid #b2dfdb;
 }
 
 .stat{
@@ -620,4 +616,18 @@ a {
 
 .stat{
 	border: 2px solid red;
+}
+
+.new-wrap{
+    height: 90%;
+    overflow: scroll;
+}
+.input{
+	width: 100%;
+	min-height: 350px;
+	resize: none;
+	border-radius: 5px;
+}
+.submit{
+	float: right;
 }
