@@ -1,13 +1,13 @@
 {
   "name": "vuewebp",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is simple demo based on vue",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack -w -d --color --progress --display-error-details"
   },
-  "author": "chenglin",
+  "author": "ceglin",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.25.0",
